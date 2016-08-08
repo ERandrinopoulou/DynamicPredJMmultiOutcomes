@@ -289,9 +289,11 @@ sigma2 <- lmeObject$sigma^2
 nY2 <- nrow(b2)
 
 
+mfX <- model.frame(TermsX, data = data)
 y.long <- model.response(mfX, "numeric")
 y <- list(y = y.long, offset = offset, logT = log(Time),
           eventR = eventR, eventD = eventD, zeros = zeros, lag = lag)
+mfX2 <- model.frame(TermsX2, data = data2)
 y.long2 <- model.response(mfX2, "numeric")
 y2 <- list(y = y.long2, offset = offset2, logT = log(Time),
            eventR = eventR, eventD = eventD, zeros = zeros, lag = lag)
