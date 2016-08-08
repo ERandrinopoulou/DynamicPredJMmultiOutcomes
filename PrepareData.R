@@ -51,8 +51,8 @@ Time <- data.id$Time ### is the survival time
 
 #################################
 # set MCMC details
-con <- list(program = "JAGS", n.chains = 1, n.iter = 100000,
-            n.burnin = 50000, n.thin = 10, n.adapt = 2000, K = 100,
+con <- list(program = "JAGS", n.chains = 1, n.iter = 200000,
+            n.burnin = 100000, n.thin = 10, n.adapt = 2000, K = 100,
             C = 5000, working.directory = getwd(), bugs.directory = "C:/Program Files/WinBUGS14/",
             openbugs.directory = NULL, clearWD = TRUE, over.relax = TRUE,
             knots = NULL, ObsTimes.knots = TRUE, lng.in.kn = 5, ordSpline = 4,
