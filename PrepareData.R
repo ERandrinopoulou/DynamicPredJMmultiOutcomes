@@ -17,7 +17,7 @@ colnames(data) <- c("id", "Time", "y1", "y2")
 
 #################################
 # fit the continuous longitudinal outcome using a mixed-effetcs model
-lmeObject <- lme(y1 ~ ns(Time,3), data = data,
+lmeObject <- lme(y1 ~ ns(Time, 3), data = data,
            na.action = na.exclude,
            random = list(id = pdDiag(form = ~ ns(Time, 3))))
  
