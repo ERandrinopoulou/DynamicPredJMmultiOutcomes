@@ -9,7 +9,9 @@ The code for modeling multiple longitudinal (2 continuous and 1 ordinal) and a c
 * "Fit": includes the main code. Specifically, it loads the data, runs the functions, creates the model, runs the model in JAGS and saves the results.
 *(Not available yet) "DynPred": includes the code to run the preditions. 
 
-In order to run the joint model, all files should be placed in the same folder. Then the "Fit" code should be run after setting as working directory the folder which includes all files.
-
+How does it work:
+* Download all files and place them in one folder.
+* Set as working directory in R this folder.
+* Run the code in "Fit".
 
 
