@@ -13,4 +13,4 @@ The code for modeling multiple longitudinal (2 continuous and 1 ordinal) and a c
 
 "Fit": includes the main code. Specifically, it loads the data, runs the fucntions, saves the model, runs the model in JAGS and saves the results.
 
-"DynPred": includes the code to run the preditions. 
+(Not available yet) "DynPred": includes the code to run the preditions. 
