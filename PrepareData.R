@@ -8,11 +8,6 @@ library(JMbayes)
 library("rms")
 library("arm")
 
-
-load("data1.Rdata")
-load("data.id1.Rdata")
-
-
 colnames(data) <- c("id", "Time", "y1", "y2")
 
 #################################
