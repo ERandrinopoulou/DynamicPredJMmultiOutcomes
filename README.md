@@ -7,7 +7,7 @@ The code for modeling multiple longitudinal (2 continuous and 1 ordinal) and a c
 * "ModelJAGS": joint model for jags.
 * "PrepareData": preparation of the data.
 * "Fit": main code. Specifically, it loads the data, runs the functions, creates the model, runs the model in JAGS and saves the results.
-* (Not available yet) "DynPred": has the code to run the preditions. 
+* (Not available yet) "DynPred": has the code to run the dynamic preditions assumuing the value parameterization. 
 
 How does it work:
 * Download all files and place them in one folder.
