@@ -5,8 +5,11 @@
 ####
 library(rjags)
 library(R2WinBUGS)
-####
+library(JMbayes)
+library("rms")
+library("arm")
 
+####
 load("data.id1.Rdata")
 load("data1.Rdata")
 source("Functions.R")
