@@ -3,12 +3,6 @@
 # data2 = long formal data for the ordinal longitudinal analysis
 # data.id = data for the survival analysis
 ####
-
-library(JMbayes)
-library("rms")
-library("arm")
-
-
 colnames(data) <- c("id", "Time", "y1", "y2")
 
 #################################
