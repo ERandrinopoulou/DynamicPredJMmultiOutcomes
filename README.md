@@ -1,7 +1,7 @@
 # DynamicPredJMmultiOutcomes
 ## Dynamic predictions using joint models of two longitudinal outcomes and competing risk data.
 
-This repository includes the code for (1) modeling multiple longitudinal (2 continuous and 1 ordinal) and a competing risk model and (2) dynamic predictions assuming the value parameterization. 
+This repository includes the code for (1) modeling multiple longitudinal (1 continuous and 1 ordinal) and a competing risk model and (2) dynamic predictions assuming the value parameterization. 
 
 Specifically:
 * "**data.id1.Rdata**" / "**data1.Rdata**": include simulated data for the longitudinal and survival outcomes.
