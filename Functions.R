@@ -21,7 +21,7 @@ like <- function(p, y){
 }
 
 
-crback.setup<-function(y)
+crback.setup <- function(y)
 {
   yname <- as.character(substitute(y))
     y <- factor(y, exclude = NA)
