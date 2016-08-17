@@ -46,6 +46,6 @@ for (p in seq_along(parms)) {
 save(codaFit, file = "results.RData")
 
 ######### sims.list is a list with the results
-#Obtain the mean/median/mode of each chain
-#e.g.
+# Obtain the mean/median/mode of each chain
+# e.g.
 apply(sims.list[[1]], 2, mean)
