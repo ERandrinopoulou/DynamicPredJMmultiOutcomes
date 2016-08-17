@@ -6,8 +6,8 @@
 library(rjags)
 library(R2WinBUGS)
 library(JMbayes)
-library("rms")
-library("arm")
+library(rms)
+library(arm)
 
 ####
 load("data.id1.Rdata")
