@@ -9,7 +9,7 @@ Specifically:
 * "**ModelJAGS**": includes the joint model for jags.
 * "**PrepareData**": includes the preparation of the data.
 * "**Fit**": includes the main code. Specifically, it loads the packages and the data, runs the functions, creates the model, runs the model in JAGS and saves the results.
-* (Not available yet) "**DynPred**": has the code to run the dynamic preditions assiming the value parameterization. 
+* (Not available yet) "**DynPred**": has the code to run the dynamic preditions assuming the value parameterization. 
 
 How does it work:
 * Download all files and place them in one folder.
