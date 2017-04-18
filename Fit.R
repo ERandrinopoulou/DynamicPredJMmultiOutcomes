@@ -8,8 +8,12 @@ library(R2WinBUGS)
 library(JMbayes)
 library(rms)
 library(arm)
+library(splines)
+library(mvtnorm)
+
 
 ####
+
 load("data.id1.Rdata")
 load("data1.Rdata")
 source("Functions.R")
@@ -49,3 +53,4 @@ save(codaFit, file = "results.RData")
 # Obtain the mean/median/mode of each chain
 # e.g.
 apply(sims.list[[1]], 2, mean)
+
