@@ -179,9 +179,9 @@ for (k in 1:length(ti)) {
     
     # accept/reject algorithm
     if (u <= a) {
-      b[iii,] <-  bprop[iii, ]
+      b[iii, ] <-  bprop[iii, ]
     } else {
-      b[iii,] <- b[iii, ]
+      b[iii, ] <- b[iii, ]
     }
     
     #  calculate the CIF
