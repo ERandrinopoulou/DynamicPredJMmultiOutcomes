@@ -135,7 +135,7 @@ for (k in 1:length(ti)) {
     tau_b <- matrix(0,raneff,raneff)
     tau_b[1,] <- tau_b[,1] <- taus_bb[1:raneff]
     tau_b[2,] <- tau_b[,2] <- taus_bb[(raneff+1):(raneff+raneff)]
-    tau_b[3,] <- tau_b[,3] <- taus_bb[(raneff*2 +1):(raneff*2+raneff)]
+    tau_b[3,] <- tau_b[,3] <- taus_bb[(raneff*2+1):(raneff*2+raneff)]
     tau_b[4,] <- tau_b[,4] <- taus_bb[(raneff*3+1):(raneff*3+raneff)]
     tau_b[5,] <- tau_b[,5] <- taus_bb[(raneff*4+1):(raneff*4+raneff)]
     tau_b[6,] <- tau_b[,6] <- taus_bb[(raneff*5+1):(raneff*5+raneff)]
