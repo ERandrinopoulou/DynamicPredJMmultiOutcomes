@@ -15,5 +15,5 @@ How does it work:
 * Download all files and place them in one folder.
 * Set as working directory in R this folder.
 * Run the code in "Fit" for fitting the joint model.
-* (Not available yet) Run the code in "DynPred" for obtaining dynamic predictions.
+* Run the code in "DynPred" for obtaining dynamic predictions.
 
