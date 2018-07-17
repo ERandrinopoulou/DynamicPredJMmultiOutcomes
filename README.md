@@ -4,7 +4,7 @@
 This repository includes the code for (1) modeling multiple longitudinal (1 continuous and 1 ordinal) and competing risk survival outcomes and (2) dynamic predictions. The underlying value for the association parameter is assumed. 
 
 Specifically:
-* "**data.id1.Rdata**" / "**data1.Rdata**": include simulated data for the longitudinal and survival outcomes.
+* "**data.id1.Rdata**" / "**data1.Rdata**": include simulated data for the longitudinal and survival outcomes ("data.id" and "data").
 * "**Functions**": includes functions needed for the code.
 * "**ModelJAGS**": includes the joint model for jags.
 * "**PrepareData**": includes the preparation of the data.
